@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -45,7 +46,6 @@ header {
     color:#FFF;
     font-size: 2.5rem;
     font-weight: 800;
-    line-height: 150%;
     margin-top: 12.2rem;
 }
 .subtitle {
@@ -53,7 +53,6 @@ header {
     color:#FFF;
     font-size: 1.2rem;
     font-weight: 600;
-    line-height: 150%; 
 }
 .containerOne button {
     width: 11.6rem;
@@ -66,14 +65,12 @@ header {
     text-align: center;
     font-size: 0.9rem;
     font-weight: 700;
-    line-height: 150%; 
     cursor:pointer;
 }
 .image {
     width: 40.1rem;
     height: 31.1rem;
-    padding-top: 8.1rem;
-    margin-top: 2.1rem;
+    padding-top: 5.1rem;
 }
 h1 {
     margin-top: 5.6rem;
@@ -96,7 +93,6 @@ h1 {
     font-family: Open Sans;
     font-size: 0.6rem;
     font-weight: 600;
-    line-height: 150%;
 }
 .calculate input {
     display: flex;
@@ -120,7 +116,6 @@ h1 {
     text-align: center;
     font-size: 0.8rem;
     font-weight: 700;
-    line-height: 150%; 
 }
 .button-calc button {
     width: 8.6rem;
@@ -131,7 +126,6 @@ h1 {
     border: none;
     font-size: 0.9rem;
     font-weight: 600;
-    line-height: 150%;
     border-radius: 0.6rem;
     background: #80ADFF;
     cursor: pointer;
@@ -147,7 +141,8 @@ h1 {
     border-radius: 0.8rem;
     background: linear-gradient(207deg, #0652DD 20.91%, #53B1FF 96.59%);
     margin-left: 2.3rem;
-
+    min-height: 9.25rem;
+    height: fit-content;
     text-align: center;
 }
 .newValue {
@@ -156,7 +151,6 @@ h1 {
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
-    line-height: 150%; 
 }
 
 .value {
@@ -164,30 +158,33 @@ h1 {
     font-family: Open Sans;
     font-size: 3.3rem;
     font-weight: 800;
-    line-height: 150%;
 }
 .hour {
     color: #FFF;
     font-size: 2.0rem;
     font-weight: 800;
-    line-height: 150%;
 }
+
+
+.last-salary{
+    margin-bottom: 0.65rem;
+}
+
 .salary,
 .project-hour{
  display: flex;
- justify-content: space-around;
+ padding: 0 2.1rem;
+ justify-content: space-between;
  align-items: normal;
- margin-left: 2.1rem;
 }
 .salary span,
 .project-hour span{
     max-width: 7rem;
     height: 0.9rem;
-    color:black;
+    color:#FFF;
     font-family: Open Sans;
     font-size: 0.6rem;
     font-weight: 600;
-    line-height: 150%;
 }
 footer {
     width: 100%;
@@ -198,13 +195,6 @@ footer {
     align-items: center;
 }
 footer img {
-    width: 3.8rem;
-    height: 2.3rem;
-}
-footer span {
     width: 13.5rem;
     height: 2.9rem;
-    color: #FFF;
-    font-size: 2.5rem;
-    font-weight: 900;
 }
