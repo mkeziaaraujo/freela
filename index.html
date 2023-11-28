@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Calculadora Freelancer</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="containerHeader">
+            <img src="/styles/assets/logo.svg" alt=""> 
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="middle">
+            <div class="containerOne">  
+                <span class="title">Calculadora Freelancer</span> 
+                <div>
+                <span class="subtitle">Você sabe quanto vale a sua hora <br> de trabalho?</span>
+                </div>
+                <button type="button">Valor/hora</button>
+                <button type="button">Valor/projeto</button>
+            </div>
+            <div class="image">
+                <img src="/styles/assets/ILUSTRA 1.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h1>Calcule o seu valor/hora!</h1>
+        </div>
+        <div class="containerTwo">
+            <div>
+                
+            <div class="calculate">
+                <div>
+                    <p>Quanto você quer ganhar por mês?</p>
+                    <div class="month">
+                        <input class="inputMonth"type="text"/>
+                        <button>Quantidade por mês</button> 
+                    </div>
+                </div>
+                <div>
+                    <p>Quantos dias você quer trabalhar por semana?</p>
+                    <div class="day">
+                        <input type="text"/>
+                        <button>Dias por semana</button>
+                    </div>
+                </div>
+                <div>
+                    <p>Quantas horas você quer trabalhar por dia?</p>
+                    <div class="hours">
+                        <input type="text"/>
+                        <button>Horas por dia</button>
+                    </div>
+                </div>
+                </div>
+                    <div class="button-calc">
+                    <button>Calcular</button>
+                </div>
+            </div>
+
+            <div class="blockBlue">
+                <div class="newValue">
+                    <span>O seu novo valor por hora</span>
+                </div>
+                <div class="value">
+                    <span>R$21,00</span><span class="hour">/hora</span>
+                </div>
+                <div class="salary">
+                    <div>
+                        <span>Salário Bruto</span>
+                    </div>
+                    <div>
+                        <span>R$ 3.000,00</span>
+                    </div>
+                </div>
+                <div class="salary">
+                    <div>
+                        <span>Carga horária semanal</span>
+                    </div>
+                    <div>
+                        <span>40 horas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>Quer calcular o valor de um projeto?</h1>
+        </div>
+        <div class="containerThree">
+            <div>
+                <div class="calculate">
+                    <div>
+                        <p class="howMuchHour">Quanto você ganha por hora?</p>
+                        <div class="month">
+                            <input class="inputMonth" type="text"/>
+                            <button>Seu valor/hora</button> 
+                        </div>
+                    </div>
+                    <div>
+                        <p class="howMuchWorkDay">Quantas horas irá trabalhar no projeto por dia?</p>
+                        <div class="day">
+                            <input type="text"/>
+                            <button>Horas por dia</button>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="projectDay">Quantos dias irá durar o projeto?</p>
+                        <div class="hours">
+                            <input type="text"/>
+                            <button>Dias</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-calc">
+                    <button onclick="calculateValueHour()">Calcular</button>
+                </div>
+            </div>
+            <div class="blockBlue">
+                <div class="newValue">
+                    <span>Valor total do projeto</span>
+                </div>
+                <div class="value">
+                    <span class="resultProject">R$10.560,00</span>
+                </div>
+                <div class="project-hour">
+                    <div>
+                        <span>Seu valor/hora</span>
+                    </div>
+                    <div>
+                        <span>R$ 22,00</span>
+                    </div>
+                </div>
+                <div class="project-hour">
+                    <div>
+                        <span>Horas por dia</span>
+                    </div>
+                    <div>
+                        <span>8 horas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="/styles/assets/Group.svg" alt="YEAH DEV logo">
+        <span>YEAH DEV.</span>
+    </footer>
+</body>
+</html> 

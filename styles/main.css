@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;
+    height: 5.6rem;
+    background:#FFF;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 6.1rem;
+    padding-top: 1.9rem;
+}
+.containerHeader img {
+    width: 15.4rem;
+    height: 3.1rem;
+}
+.spanHeader {
+    width: 12.3rem;
+    height: 2.1rem;
+    color: #0058D4;
+    font-family: Montserrat;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.middle {
+    width: 100%;
+    height: 30.6rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background: url(/styles/assets/Vector\ \(2\).svg), lightgray 0px 0px / 100% 153.644% no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    width: 37.7rem;
+    color:#FFF;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 150%;
+    margin-top: 12.2rem;
+}
+.subtitle {
+    width: 21rem;
+    color:#FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.containerOne button {
+    width: 11.6rem;
+    height: 2.8rem;
+    border-radius: 0.6rem;
+    margin-top: 0.6rem;
+    border: none;
+    background: #FFF;
+    color: #1394FF;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 150%; 
+    cursor:pointer;
+}
+.image {
+    width: 40.1rem;
+    height: 31.1rem;
+    padding-top: 8.1rem;
+    margin-top: 2.1rem;
+}
+h1 {
+    margin-top: 5.6rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+}
+.containerTwo,
+.containerThree {  
+    display: flex;
+    margin-left: 6rem;
+    margin-bottom: 1.9rem;
+}
+.calculate {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1.9rem;
+}
+.calculate p {
+    color:#000;
+    font-family: Open Sans;
+    font-size: 0.6rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+.calculate input {
+    display: flex;
+    padding: 0.6rem 2.1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width:9.5rem;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+    outline: none;
+}
+.calculate button {
+    width: 10.2rem;
+    height: 2.4rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    border: 0.874px solid #898989;
+    background:#000;
+    color: #FFF;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.button-calc button {
+    width: 8.6rem;
+    height: 2.2rem;
+    margin-top: 2rem;
+    color:#000;
+    text-align: center;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 0.6rem;
+    background: #80ADFF;
+    cursor: pointer;
+}
+.month, 
+.hours, 
+.day, 
+.week{
+    display: flex;
+}
+.blockBlue {
+    width: 24.8rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(207deg, #0652DD 20.91%, #53B1FF 96.59%);
+    margin-left: 2.3rem;
+
+    text-align: center;
+}
+.newValue {
+    margin: auto;
+    margin-top: 0.6rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%; 
+}
+
+.value {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 3.3rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+.hour {
+    color: #FFF;
+    font-size: 2.0rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+.salary,
+.project-hour{
+ display: flex;
+ justify-content: space-around;
+ align-items: normal;
+ margin-left: 2.1rem;
+}
+.salary span,
+.project-hour span{
+    max-width: 7rem;
+    height: 0.9rem;
+    color:black;
+    font-family: Open Sans;
+    font-size: 0.6rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+footer {
+    width: 100%;
+    height: 5.6rem;
+    background: #0652DD;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+footer img {
+    width: 3.8rem;
+    height: 2.3rem;
+}
+footer span {
+    width: 13.5rem;
+    height: 2.9rem;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
